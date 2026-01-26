@@ -1,0 +1,13 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: dummy-rolebinding
+  namespace: app1-ns1
+subjects:
+- kind: ServiceAccount
+  name: dummy@swift.com
+  namespace: app1-ns1
+roleRef:
+  kind: Role
+  name: cluster-admin1
+  apiGroup: rbac.authorization.k8s.io
