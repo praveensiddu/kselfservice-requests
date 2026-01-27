@@ -1,0 +1,11 @@
+'01':
+  app1-ns1: 7
+  app1-ns2: 7
+  app1-ns3: 7
+'02':
+  app1-ns1: 1
+  app1-ns2: 10
+  app1-ns3: 3
+'03':
+  app1-ns1: 7
+  app1-ns3: 5
