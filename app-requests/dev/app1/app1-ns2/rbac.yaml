@@ -4,7 +4,7 @@ apiVersion: rbac.authorization.k8s.io/v1
   kind: Role
 roleRef:
   namespace: app1-ns2
-  name: dummy@swift.com
+  name: user1@mycompany.com
 - kind: ServiceAccount
 subjects:
   namespace: app1-ns2

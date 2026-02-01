@@ -5,7 +5,7 @@ metadata:
   namespace: app1-ns1
 subjects:
 - kind: ServiceAccount
-  name: dummy@swift.com
+  name: user1@mycompany.com
   namespace: app1-ns1
 roleRef:
   kind: Role
