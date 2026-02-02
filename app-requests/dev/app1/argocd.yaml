@@ -1,0 +1,5 @@
+#argocd_admin_groups: ''
+argocd_operator_groups: app1_admin_grp
+#argocd_readonly_groups: ''
+argocd_sync_strategy: auto
+gitrepourl: https://github.com/praveensiddu/kselfservice-app1-argocd

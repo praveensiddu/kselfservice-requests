@@ -3,5 +3,5 @@ clusters: [["03","103"]
 egress_nameid: "app1"
 enable_pod_based_egress_ip: "false"
 allow_all_egress: "false"
-need_argo: "true"
+need_argo: "false"
 generate_argo_app: "false"
