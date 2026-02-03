@@ -1,0 +1,3 @@
+clusters:
+- '03'
+egress_nameid: prtest
