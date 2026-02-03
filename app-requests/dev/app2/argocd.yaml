@@ -1,0 +1,4 @@
+argocd_sync_strategy: auto
+gitrepourl: https://github.com/praveensiddu/kselfservice-app1-argocd
+argocd_admin_groups: omer
+argocd_operator_groups: omer_operator

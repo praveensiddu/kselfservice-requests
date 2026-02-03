@@ -1,0 +1,16 @@
+- egressType: dnsName
+  egressValue: xyzabc.com
+- egressType: cidrSelector
+  egressValue: 10.0.0.24
+  ports:
+  - protocol: TCP
+    port: 8080
+  - protocol: TCP
+    port: 443
+- egressType: cidrSelector
+  egressValue: 10.0.1.24
+  ports:
+  - protocol: TCP
+    port: 80
+- egressType: dnsName
+  egressValue: omer.com

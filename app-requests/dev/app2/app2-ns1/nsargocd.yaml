@@ -1,0 +1,2 @@
+need_argo: 'true'
+argocd_sync_strategy: manual

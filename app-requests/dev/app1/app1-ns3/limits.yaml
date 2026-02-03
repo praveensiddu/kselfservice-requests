@@ -1,3 +1,2 @@
-#
-cpu: "10"
-memory: "10Gi"
+cpu: '10'
+memory: 10Gi
