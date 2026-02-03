@@ -1,0 +1,4 @@
+clusters:
+- '03'
+- '501'
+egress_nameid: app6
