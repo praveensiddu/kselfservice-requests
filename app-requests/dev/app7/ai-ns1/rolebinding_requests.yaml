@@ -1,0 +1,12 @@
+- subject:
+    kind: ServiceAccount
+    name: aisc
+  roleRef:
+    kind: ClusterRole
+    name: cluster-reader
+- subject:
+    kind: ServiceAccount
+    name: aisc
+  roleRef:
+    kind: Role
+    name: project-reader
