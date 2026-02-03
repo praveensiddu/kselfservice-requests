@@ -1,3 +1,4 @@
 clusters:
 - '03'
+- '601'
 egress_nameid: app7
