@@ -1,0 +1,11 @@
+- egressType: dnsName
+  egressValue: codecommit.aws.com
+- egressType: dnsName
+  egressValue: vault.example.com
+- egressType: cidrSelector
+  egressValue: 10.1.1.1/24
+  ports:
+  - protocol: TCP
+    port: 443
+  - protocol: TCP
+    port: 8083
