@@ -16,3 +16,5 @@
   egressValue: omer.com
 - egressType: dnsName
   egressValue: oweer.com
+- egressType: cidrSelector
+  egressValue: 10.0.0.1/24
