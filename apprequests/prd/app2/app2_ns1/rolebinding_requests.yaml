@@ -5,9 +5,9 @@ metadata:
   namespace: app2_ns1
 subjects:
 - kind: ServiceAccount
-  name: user1@mycompany.com
+  name: svcacc
   namespace: app2_ns1
 roleRef:
   kind: Role
-  name: cluster-admin1
+  name: pod-reader
   apiGroup: rbac.authorization.k8s.io
