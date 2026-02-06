@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: default
+  namespace: app4-ns3
+spec:
+  limits:
+  - type: Container
+    default:
+      cpu: 10Gi
+      memory: 10Gi
+      ephemeral-storage: 350Mi
+    defaultRequest:
+      cpu: '10'
+      memory: 10Gi
+      ephemeral-storage: 50Mi
