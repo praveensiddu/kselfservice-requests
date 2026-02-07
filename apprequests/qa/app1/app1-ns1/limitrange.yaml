@@ -11,6 +11,6 @@ spec:
       memory: 10Gi
       ephemeral-storage: 350Mi
     defaultRequest:
-      cpu: '10'
+      cpu: '20'
       memory: 10Gi
       ephemeral-storage: 50Mi
