@@ -1,0 +1,7 @@
+- egressType: dnsName
+  egressValue: abc.com
+- egressType: cidrSelector
+  egressValue: 10.0.0.1/24
+  ports:
+  - protocol: TCP
+    port: 10443
