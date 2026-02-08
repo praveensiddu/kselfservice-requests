@@ -1,6 +1,1 @@
-'01':
-  app2_ns1: 8
-'02':
-  app2_ns1: 7
-'03':
-  app2_ns1: 1
+# No L4 ingress is required

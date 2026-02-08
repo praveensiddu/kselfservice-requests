@@ -1,13 +1,4 @@
-'01':
-  app4-ns1: 2
-  app4-ns2: 7
-  app4-ns3: 5
-  app4-ns4: 3
-'02':
-  app4-ns1: 2
-  app4-ns2: 2
-  app4-ns3: 6
-  app4-ns4: 5
 '03':
-  app4-ns3: 4
-  app4-ns4: 5
+  app4: 2
+'103':
+  app4: 2
