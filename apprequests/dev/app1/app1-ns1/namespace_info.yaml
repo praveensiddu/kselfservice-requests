@@ -1,7 +1,8 @@
-description: "ns description tbd"
-clusters: ["01","101"]
-egress_nameid: "app1"
-enable_pod_based_egress_ip: "false"
-allow_all_egress: "false"
-
-generate_argo_app: "false"
+description: ns description tbd
+clusters:
+- '01'
+- '101'
+egress_nameid: ns1
+enable_pod_based_egress_ip: false
+allow_all_egress: 'false'
+generate_argo_app: 'false'
