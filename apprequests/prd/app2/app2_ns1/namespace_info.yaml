@@ -1,6 +1,6 @@
 description: "ns description tbd"
 clusters: ["01","02","03"]
-egress_nameid: "app1"
+egress_nameid: "app2"
 enable_pod_based_egress_ip: "false"
 allow_all_egress: "false"
 
